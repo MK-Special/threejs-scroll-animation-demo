@@ -15,7 +15,12 @@ canvas {
   font-weight: 400;
   font-style: normal;
 }
-
+body{
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
 
 main {
   width: 100vw;
